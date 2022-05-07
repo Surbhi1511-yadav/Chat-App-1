@@ -103,7 +103,7 @@ export default function SetAvatar() {
     </>
   );
 }
-
+//Style the avatar
 const Container = styled.div`
   display: flex;
   justify-content: center;
@@ -127,6 +127,7 @@ const Container = styled.div`
     display: flex;
     gap: 2rem;
 
+    //show the avatars
     .avatar {
       border: 0.4rem solid transparent;
       padding: 0.4rem;
@@ -140,6 +141,7 @@ const Container = styled.div`
         transition: 0.5s ease-in-out;
       }
     }
+    //set the bg color when we select any avatar 
     .selected {
       border: 0.4rem solid #4e0eff;
     }
