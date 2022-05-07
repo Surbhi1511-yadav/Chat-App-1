@@ -16,6 +16,7 @@ export default function Register() {
     draggable: true,
     theme: "dark",
   };
+  
   const [values, setValues] = useState({
     username: "",
     email: "",
